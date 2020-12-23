@@ -1,0 +1,85 @@
+body{
+    background: #d2d2c1;
+    background-image: url('fundo.png');
+    max-width: 900px;
+}
+
+#capa{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+/* Navbar */
+
+#nav{
+    padding: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #d3d3be;
+    
+}
+
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #566169;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: unset;
+}
+a:hover{
+    color: #96897b;
+}
+
+/* Sobre */
+
+#text{
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px 7px;
+}
+
+h3{
+    color: #999480;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.foto>img{
+    border: 7px solid #d3d3be;
+}
+
+/* Rodapé */
+
+.roda{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+
+/* Telefone e e-mail */
+
+#contato{
+    padding: 10px;
+}
+
+.info{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.mail{
+    font-size: 15px;
+    color: #29232a;
+}
+
+.tel{
+    font-size: 15px;
+    color: #29232a;
+
+}

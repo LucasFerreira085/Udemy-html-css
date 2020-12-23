@@ -1,0 +1,168 @@
+/* Gerais */
+body{
+    background-color: #fbf8fb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+li>a:link, li>a:visited{
+    color: #ffc406;
+    text-decoration: unset;
+}
+
+li>a:hover{
+    text-decoration: underline;
+}
+
+li{
+    padding-top: 5px;
+}
+
+span>a{
+    color: #ffc406;
+    text-decoration: unset;
+    display: block;
+    padding: 5px;
+}
+
+span>a:hover{
+    text-decoration: underline;
+}
+
+.clear{
+    clear: both;
+}
+/* navbar */
+#navbar{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    background-color: #ffc406;
+    height: 140px;
+}
+
+.title{
+    color: black;
+    font-size: 30px;
+    padding: 0;
+    
+}
+
+.white{
+    color: white;
+}
+
+.links>a{
+    font-size: 19px;
+    color: white;
+    padding: 8px;
+    font-weight: 500;
+}
+
+.links>a:link, .links>a:visited{
+    padding-left: 15px;
+    padding-right: 20px;
+    text-decoration: unset;
+    color: white;
+    
+
+}
+
+.links>a:hover{
+    color: #ffc406;
+    background-color: white;
+    border-radius: 5%;
+}
+
+/* conteúdo */      /* tamanho usado no mercado 920px */
+#content{
+    margin-top: 20px;
+    max-width: 640px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+    float: left;
+}
+
+.title2{
+    color: #ffc406;
+}
+
+.bloco1{
+    font-weight: 500;
+}
+
+.foto1{
+    width: auto;
+}
+
+#bloco2{
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    background-color: #ffffff;
+    margin: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.title3{
+    background-color: #dddadd;
+    color: #68676d;
+    font-size: 19px;
+    
+}
+
+#bloco3{
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: left;
+    background-color: #ffffff;
+    margin: 20px;
+    position: relative;
+    left: 200px;
+    
+}
+
+.title4{
+    background-color: #dddadd;
+    color: #68676d;
+    font-size: 19px;
+    
+}
+
+#bloco3>a{
+    text-decoration: unset;
+    color: #ffc406;
+    padding: 20px;
+    
+}
+
+#bloco3>a:hover{
+    text-decoration: underline;
+}
+
+#bloco4{
+    margin-top: 20px;
+    max-width: 640px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+}
+
+/* Rodapé */
+
+footer{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}

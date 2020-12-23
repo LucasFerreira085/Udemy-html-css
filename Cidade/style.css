@@ -1,0 +1,324 @@
+/* Geral */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    width: 100%;
+    background: #ffffff url('city/fundo.png') repeat-x top;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Navbar */
+
+nav{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#menu{
+    background: url('city/detalhe-topo.png') no-repeat right;
+    padding-top: 25px;
+    height: 130px;
+}
+
+#logo{
+    width: 152px;
+    height: 66px;
+    background: url('city/logo.png') no-repeat left center;
+    text-indent: -3000px;
+}
+
+nav ul{
+    margin-top: 35px;
+    list-style: none;
+    
+}
+
+#menu li{
+    float: left;
+    padding: 13px 20px;
+    background: linear-gradient(to bottom, #b1002e, #880024);
+    background: #b1002e url('city/divisor.png') repeat-y right center;
+    font-weight: 500;
+    
+}
+
+#menu .active{
+    background: linear-gradient(to bottom, #e10037, #c20030);
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+#menu a:hover{
+    color: rgb(66, 12, 12);
+}
+
+
+/* Conteúdo */
+
+main{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 90px;
+}
+
+main h2{
+    background: linear-gradient(to bottom, #386799,#28496d);
+    font-size: 1.2em;
+    color: white;
+    padding: 5px;
+}
+
+.caixa{
+    background: #f3f3f3 url('city/fundo-caixa.png');
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: white;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+}
+
+#destaque a, #entrevista-felipe a{
+    color: #b1002e;
+    font-size: 1em;
+}
+
+/* lateral */
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -770px;
+    
+    
+}
+
+#lateral ul{
+    list-style: none;
+}
+
+#lateral ul a{
+    line-height: 30px;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+    
+}
+
+#lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url('city/marcador.png')no-repeat left center;
+    padding-left: 20px;
+}
+
+/* Formatando Formulários */
+
+label{
+    cursor: pointer;
+    display: block;
+}
+
+input.text{
+    font-size: 0.9em;
+    width: 133px;
+    padding: 3px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+input.submit{
+    padding: 3px;
+    background: #b10333;
+    border: 2px solid #870529;
+    color: white;
+    margin-left: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* primario */
+
+#tres-colunas #primario{
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 575px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+#uma-coluna #primario{
+    width: 100%;
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+.legislacao{
+    background: linear-gradient(to bottom, #d6013a,#b1002e);
+    color: white;
+    padding: 3px;
+    width: 54%;
+}
+
+.felipe-silva{
+    background: linear-gradient(to bottom, #ce023c,#b10333);
+    padding: 2.5px;
+    width: 218px;
+    line-height: 20px;
+    color: whitesmoke;
+}
+
+
+.taxi{
+    width: 98%;
+    padding: 1px;
+    border: 2px solid #dfdfdf;
+}
+
+/* lista */
+
+.lista-foto li{
+    height: 70px;
+    padding: 3px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.lista-foto li a{
+    text-decoration: none;
+}
+
+.lista-foto li a img{
+    float: left;
+    margin-right: 5px;
+}
+
+.lista-foto li a h3{
+    font-size: 0.7em;
+    padding-top: 4px;
+    color: #3e7ab9;
+}
+
+.lista-foto li a p{
+    font-size: 0.7em;
+    color: black;
+}
+
+.lista-foto li:hover{
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.lista-foto img{
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.lista-foto p{
+    font-size: 0.9em;
+    position: relative;
+    left: 105px;
+    width: 100px;
+    line-height: 15px;
+    bottom: 46px;
+}
+
+.link-foto{
+    position: relative;
+    bottom: 53px;
+    font-size: 0.7em;
+    padding-left: 5px;
+    color: rgb(31, 155, 149);
+    text-decoration: none;
+
+}
+
+
+/* secundario */
+#secundario{
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+
+.medico{
+    padding: 1px;
+    width: 98%;
+    border: 1px solid #dfdfdf;
+}
+
+
+
+/* Rodapé */
+#rodape{
+    clear: both;
+    background-color:#28496d;
+    color: white;
+    padding: 30px;
+    padding-left: 300px;
+}
+
+/* Brasil.html */
+
+#duas-colunas #primario .brasil .lista-foto{
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+.brasil .lista-foto ul li{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+
+.brasil .lista-foto ul li a img{
+    width: 20%;
+}
+
+.brasil .lista-foto ul li a p{
+    margin-left: 10px;
+}
+
+/* fotos.html */
+
+#uma-coluna #primario .fotos .lista-foto{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.fotos .lista-foto ul li{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 15px;
+}
+
+.fotos .lista-foto ul li img{
+    width: 15%;
+    
+}
+
+.fotos .lista-foto ul li a p{
+    margin-left: 15px;
+}
+
